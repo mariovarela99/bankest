@@ -161,6 +161,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLogin);
             this.Name = "Home_Page";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
             this.Load += new System.EventHandler(this.Home_Page_Load);
             this.ResumeLayout(false);

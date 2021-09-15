@@ -26,7 +26,19 @@ namespace Bankest
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+            string FirstName = txtFirstName.Text;
+            string LastName = txtLastName.Text;
+            string BI = txtBiNumber.Text;
+            string DateNasc = txtDateNasc.Text;
+            string NContribuinte = txtContribuinteNumber.Text;
+            string Morada = txtMorada.Text;
+            string Trabalho = txtTrabalho.Text;
+            string Phone = txtNumberPhone.Text;
+            string Email = txtEmail.Text;
 
+            string Result = Account.Create(FirstName, LastName, BI, DateNasc, NContribuinte, Morada, Trabalho, Phone, Email);
+
+            lbResult.Text = Result;
         }
     }
 }

@@ -49,6 +49,7 @@
             this.txtNumberPhone = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lbResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -253,11 +254,21 @@
             this.txtEmail.Size = new System.Drawing.Size(192, 26);
             this.txtEmail.TabIndex = 22;
             // 
+            // lbResult
+            // 
+            this.lbResult.AutoSize = true;
+            this.lbResult.Location = new System.Drawing.Point(512, 380);
+            this.lbResult.Name = "lbResult";
+            this.lbResult.Size = new System.Drawing.Size(37, 13);
+            this.lbResult.TabIndex = 24;
+            this.lbResult.Text = "Result";
+            // 
             // Create_Account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 443);
+            this.Controls.Add(this.lbResult);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label9);
@@ -280,6 +291,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Create_Account";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create_Account";
             this.Load += new System.EventHandler(this.Create_Account_Load);
             this.ResumeLayout(false);
@@ -310,5 +322,6 @@
         private System.Windows.Forms.TextBox txtNumberPhone;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lbResult;
     }
 }

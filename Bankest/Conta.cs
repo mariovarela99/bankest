@@ -17,8 +17,10 @@ namespace Bankest
 
         public string Create(string firstName, string lastName, string bi, string dateNasc, string numberContribuinte, string Morada, string Trabalho, string Tel, string Email)
         {
-
-            File.AppendText(String.Format("{0} \t {1} \t {2} \t {3} \t {4} \t {5} \t {6} \t {7} \t {8}", firstName, lastName, bi, dateNasc,numberContribuinte, Morada, Trabalho,  Tel, Email));
+            DirectoryInfo Dir = new DirectoryInfo(path);
+            Dir.CreateSubdirectory("Bankest");
+            FileInfo AccountsFile =  new FileInfo(String.Format("{0}/Bankest/Accounts.txt", path));
+            File.AppendAllText(AccountsFile.FullName, String.Format("\n {0} \t {1} \t {2} \t {3} \t {4} \t {5} \t {6} \t {7} \t {8}", firstName, lastName, bi, dateNasc,numberContribuinte, Morada, Trabalho,  Tel, Email));
 
             return "Created";
         }

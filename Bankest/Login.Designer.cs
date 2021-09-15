@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(841, 510);
             this.Controls.Add(this.label1);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
