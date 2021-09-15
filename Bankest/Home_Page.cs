@@ -16,5 +16,24 @@ namespace Bankest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login LoginForm = new Login();
+            LoginForm.Show();
+            this.Hide();
+        }
+
+        private void Home_Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkCadastrar_Click(object sender, EventArgs e)
+        {
+            Create_Account CadastrarForm = new Create_Account();
+            CadastrarForm.Show();
+            this.Hide();
+        }
     }
 }

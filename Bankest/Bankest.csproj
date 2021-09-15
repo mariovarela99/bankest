@@ -44,16 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conta.cs" />
+    <Compile Include="Create_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Account.Designer.cs">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home_Page.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home_Page.Designer.cs">
       <DependentUpon>Home_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Create_Account.resx">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home_Page.resx">
       <DependentUpon>Home_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

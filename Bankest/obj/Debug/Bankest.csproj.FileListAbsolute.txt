@@ -1,1 +1,11 @@
 C:\Users\mariovarela99\Documents\Projects\Bankest\Bankest\bin\Debug\Bankest.exe.config
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\bin\Debug\Bankest.exe
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\bin\Debug\Bankest.pdb
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.csprojResolveAssemblyReference.cache
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.Home_Page.resources
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.Login.resources
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.Properties.Resources.resources
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.csproj.GenerateResource.Cache
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.exe
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.pdb
+C:\Users\mariovarela99\Documents\Projects\bankest\Bankest\obj\Debug\Bankest.Create_Account.resources
