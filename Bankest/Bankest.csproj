@@ -51,6 +51,7 @@
     <Compile Include="Create_Account.Designer.cs">
       <DependentUpon>Create_Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Extras.cs" />
     <Compile Include="Home_Page.cs">
       <SubType>Form</SubType>
     </Compile>

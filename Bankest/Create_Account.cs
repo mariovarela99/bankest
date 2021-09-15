@@ -40,5 +40,10 @@ namespace Bankest
 
             lbResult.Text = Result;
         }
+
+        private void OpenHome(object sender, FormClosingEventArgs e)
+        {
+            
+        }
     }
 }

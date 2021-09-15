@@ -293,7 +293,7 @@
             this.Name = "Create_Account";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create_Account";
-            this.Load += new System.EventHandler(this.Create_Account_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OpenHome);
             this.ResumeLayout(false);
             this.PerformLayout();
 
